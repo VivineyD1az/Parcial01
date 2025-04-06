@@ -2,88 +2,130 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
+body {
     background-color: #FFEA35;
-  }
+}
   
-  .container {
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .purple-figure {
+.purple-figure {
     width: 10vw;
     height: 90vh;
     background-color: #E016FF;
-  }
+}
   
-  .orange-container {
+.orange-container {
     width: 85vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .orange-figures {
+  
+.orange-figures {
     height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
-  }
+}
   
-  .orange1 {
+.orangefigure-1 {
     width: 20vw;
     height: 20vh;
     background-color: #FF800B;
     display: flex;
     align-items: flex-start;
-  }
+}
   
-  .orange1-1 {
+.orangefigure-1-1 {
     width: 7vw;
     height: 7vh;
     background-color: #FFBB7C;
-  }
+}
   
-  .orange2 {
+.orangefigure-2 {
     width: 20vw;
     height: 20vh;
     background-color: #FF800B;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .orange2-1 {
+.orangefigure-2-1 {
     width: 7vw;
     height: 7vh;
     background-color: #FFBB7C;
-  }
+}
   
-  .orange3 {
+.orangefigure-3 {
     width: 20vw;
     height: 20vh;
     background-color: #FF800B;
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-  }
+}
   
-  .orange3-1 {
+.orangefigure-3-1 {
     width: 7vw;
     height: 7vh;
     background-color: #FFBB7C;
-  }
+}
   
-  .blue-figure {
+  
+.blue-figure {
     width: 85vw;
-    height: 10vh;
+    height: 15vh;
     background-color: #1C2260;
-  }
+}
+  
+  
+.pink-container {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+  
+.pink-figures {
+    width: 30vw;
+    height: 20vh;
+    background-color: #FF0B80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+  
+.pinkfigure-1 {
+    width: 7vw;
+    height: 7vh;
+    background-color: #FF7DB9;
+}
+  
+.pink-bar {
+    width: 30vw;
+    height: 20vh;
+    background-color: #FF0B80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.pinkbar-1 {
+    width: 30vw;
+    height: 3vh;
+    background-color: #FF7DB9;
+}
   
