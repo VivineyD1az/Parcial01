@@ -1,120 +1,122 @@
 body, html, #root {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #f0f9ff, #ffffff);
-  }
-  
-  .login-container {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-  
-  /* Círculos decorativos */
-  .circle {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.8;
-  }
-  
-  .circle-top-left {
-    width: 200px;
-    height: 200px;
-    background-color: #6abcfe;
-    top: -80px;
-    left: -5px;
-  }
-  
-  .circle-top-right {
-    width: 350px;
-    height: 300px;
-    background-color: #7377ff;
-    top: -105px;
-    right: -110px;
-  }
-  
-  .login-box {
-    background: transparent;
-    padding: 40px 30px;
-    border-radius: 10px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 1;
-  }
-  
-  .user-icon {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(to bottom, #3ea6ff, #6ec6ff);
-    border-radius: 50%;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    background-color: #b7aaff;
-    border-radius: 8px;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-  }
-  
-  .input::placeholder {
-    color: white;
-  }
-  
-  .remember-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 10px 0;
-    font-size: 14px;
-    color: #444;
-  }
-  
-  .remember-container input {
-    margin-right: 8px;
-  }
-  
-  .login-button {
-    width: 100%;
-    margin-top: 20px;
-    padding: 12px;
-    background-color: #4daaff;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .login-button:hover {
-    background-color: #3399ff;
-  }
-  
-  .forgot-password {
-    margin-top: 15px;
-    font-size: 13px;
-    color: #3399ff;
-    text-decoration: none;
-  }
-  
-  .forgot-password:hover {
-    text-decoration: underline;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f9ff, #ffffff);
+  overflow: hidden;
+}
 
-  
+.login-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 150px;
+}
+
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.circle-top-left {
+  width: 250px;
+  height: 250px;
+  background-color: #6abcfe;
+  top: -100px;
+  left: -40px;
+  z-index: 3; /* Azul encima */
+}
+
+.circle-top-right {
+  width: 300px;
+  height: 300px;
+  background-color: #7377ff;
+  top: -120px;
+  right: -100px;
+  z-index: 2; /* Morado debajo */
+}
+
+.login-box {
+  background: transparent;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 4;
+  margin-top: 30px;
+}
+
+.user-icon {
+  margin-bottom: 30px;
+
+}
+
+/* espacio para imagen */
+.user-icon img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  background-color: #7377ff;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.remember-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 8px 0;
+  font-size: 14px;
+  color: #4daaff;
+}
+
+.remember-container input {
+  margin-right: 8px;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4daaff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #3399ff;
+}
+
+.forgot-password {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #3399ff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}

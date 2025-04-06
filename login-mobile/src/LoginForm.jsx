@@ -1,5 +1,6 @@
 import React from "react";
 import "./LoginForm.css";
+import Icon from "./assets/Icon.svg"; 
 
 function LoginForm() {
   return (
@@ -8,7 +9,9 @@ function LoginForm() {
       <div className="circle circle-top-right"></div>
 
       <div className="login-box">
-        <div className="user-icon"></div>
+        <div className="user-icon">
+          <img src={Icon} alt="user icon" /> 
+        </div>
 
         <input type="text" placeholder="Username" className="input" />
         <input type="password" placeholder="Password" className="input" />
