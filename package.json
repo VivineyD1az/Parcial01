@@ -1,0 +1,20 @@
+{
+  "name": "parcial01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix ./login-mobile run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivineyD1az/Parcial01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivineyD1az/Parcial01/issues"
+  },
+  "homepage": "https://github.com/VivineyD1az/Parcial01#readme"
+}
