@@ -30,6 +30,7 @@ body, html, #root {
   top: -100px;
   left: -3px;
   z-index: 3; /* Azul encima */
+  opacity: 1;
 }
 
 .circle-top-right {
@@ -72,9 +73,10 @@ body, html, #root {
   border: none;
   background-color: #7377ff;
   border-radius: 11px;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   text-align: center;
+
 }
 
 .input::placeholder {
@@ -97,7 +99,7 @@ body, html, #root {
 
 .login-button {
   width: 150px;
-  margin-top: 20px;
+  margin-top: 8px;
   padding: 10px;
   background-color: #4daaff;
   border: none;
@@ -119,4 +121,9 @@ body, html, #root {
   text-decoration: none;
   text-align: center;
   display: block;
+}
+
+.login-button:active {
+  transform: scale(0.97);
+  background-color: #2a85d0;
 }
