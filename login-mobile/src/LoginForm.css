@@ -29,7 +29,7 @@ body, html, #root {
   background-color: #6abcfe;
   top: -100px;
   left: -3px;
-  z-index: 3; /* Azul encima */
+  z-index: 3; 
   opacity: 1;
 }
 
@@ -39,7 +39,7 @@ body, html, #root {
   background-color: #7377ff;
   top: -120px;
   right: -100px;
-  z-index: 2; /* Morado debajo */
+  z-index: 2;
 }
 
 .login-box {
@@ -59,7 +59,6 @@ body, html, #root {
 
 }
 
-/* espacio para imagen */
 .user-icon img {
   width: 140px;
   height: 140px;
@@ -126,4 +125,7 @@ body, html, #root {
 .login-button:active {
   transform: scale(0.97);
   background-color: #2a85d0;
+}
+input:focus {
+  outline: none; /* Quita el outline por defecto */
 }
