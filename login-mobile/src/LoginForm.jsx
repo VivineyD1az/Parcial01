@@ -12,7 +12,7 @@ function LoginForm() {
     console.log("Password:", password);
     console.log("Remember Me:", rememberMe ? "Sí" : "No");
 
-    // Limpiar campos
+
     setUsername("");
     setPassword("");
     setRememberMe(false);
@@ -67,3 +67,5 @@ function LoginForm() {
 }
 
 export default LoginForm;
+
+
